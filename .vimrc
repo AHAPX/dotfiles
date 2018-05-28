@@ -87,3 +87,9 @@ au FileType yaml set tabstop=2 shiftwidth=2 expandtab
 " Fullscreen mode
 nnoremap <C-z> :vertical resize 190<CR>:resize 50<CR>
 nnoremap <C-x> :vertical resize 250<CR>:resize 57<CR>
+
+" Hide toolbars
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
+set guioptions-=r  "remove right-hand scroll bar
+set guioptions-=L  "remove left-hand scroll bar
